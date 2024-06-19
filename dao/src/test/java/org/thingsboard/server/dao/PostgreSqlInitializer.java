@@ -29,11 +29,11 @@ import java.util.List;
 public class PostgreSqlInitializer {
 
     private static final List<String> sqlFiles = List.of(
-            "sql/schema-ts-psql.sql",
-            "sql/schema-entities.sql",
-            "sql/schema-entities-idx.sql",
-            "sql/schema-entities-idx-psql-addon.sql",
-            "sql/schema-views-and-functions.sql",
+            "src/main/data/sql/schema-ts-psql.sql",
+            "src/main/data/sql/schema-entities.sql",
+            "src/main/data/sql/schema-entities-idx.sql",
+            "src/main/data/sql/schema-entities-idx-psql-addon.sql",
+            "src/main/data/sql/schema-views-and-functions.sql",
             "sql/system-data.sql",
             "sql/system-test-psql.sql");
     private static final String dropAllTablesSqlFile = "sql/psql/drop-all-tables.sql";
